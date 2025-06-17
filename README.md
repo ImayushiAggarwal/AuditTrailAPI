@@ -23,3 +23,19 @@ An enterprise-grade .NET Core Web API to track object changes and provide audit 
   "userId": "user123",
   "action": "Updated"
 }
+
+###Response 
+{
+  "entityName": "User",
+  "action": "Updated",
+  "userId": "user123",
+  "timestamp": "2025-06-16T10:30:00Z",
+  "changes": [
+    {
+      "propertyName": "Age",
+      "oldValue": 30,
+      "newValue": 31
+    }
+  ]
+}
+
